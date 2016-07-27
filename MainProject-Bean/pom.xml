@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.trt</groupId>
+        <artifactId>AlertApp</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <artifactId>AlertApp-Database</artifactId>
+    <packaging>jar</packaging>
+    
+    
+    <properties>
+        <maven.compiler.source>1.7</maven.compiler.source>
+        <maven.compiler.target>1.7</maven.compiler.target>
+    </properties>
+    
+    <developers>
+        <developer>
+            <id>Neel TRT</id>
+            <name>Nilesh Patel</name>
+            <email>neeltrt@gmail.com</email>
+            <roles>
+                <role>Developer</role>
+            </roles>
+            <organization>Third Rock Techkno</organization>
+            <organizationUrl>http://thirdrocktechkno.com/</organizationUrl>           
+        </developer>
+        <developer>
+            <id>Nishant TRT</id>
+            <name>Nishant Contractor</name>
+            <email>nishantc@thirdrocktechkno.com</email>
+            <roles>
+                <role>Project Manager</role>
+            </roles>
+            <organization>Third Rock Techkno</organization>
+            <organizationUrl>http://thirdrocktechkno.com/</organizationUrl>
+        </developer>
+        <developer>
+            <id>Tapan TRT</id>
+            <name>Tapan Patel</name>
+            <email>tapanp@thirdrocktechkno.com</email>
+            <roles>
+                <role>Product Owner</role>
+            </roles>
+            <organization>Third Rock Techkno</organization>
+            <organizationUrl>http://thirdrocktechkno.com/</organizationUrl>
+        </developer>
+    </developers>
+    <name>AlertApp-Database</name>
+</project>
