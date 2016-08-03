@@ -92,7 +92,7 @@ public class TeacherDaoImplTest {
         assertNotNull(teachers);
     }
 
-//    @Test
+    @Test
     public void testAll() {
 
         Teacher entity = new Teacher();

@@ -30,23 +30,26 @@ public class AuthenticateDaoImplTest {
     @Autowired
     private AuthenticateDaoImpl authenticateDaoImpl;
 
-//    @Test
-//    @Transactional
+    @Test
+    @Transactional
     public void testCheckLogin() {
 
         // sucess test case
-        String uname = "dhaval";
+        String uname = "Dhaval";
         String pass = "dhaval";
         String encPassStr = CommonUtilJava.encryptedPassword(pass);
         System.out.println(encPassStr);
         Teacher teacher = null;
-        teacher = authenticateDaoImpl.checkLogin(uname, encPassStr, true);
+        teacher = authenticateDaoImpl.checkLogin(uname, "62d0c1f9a1ae19c640d2576f2f4ea9d16c4e8e72", true);
         System.out.println("User Object  >>> " + teacher);
-        String checkUname = teacher.getUname();
+        String checkUname = null;
+        if (teacher != null) {
+            checkUname = teacher.getUname();
+        }
         assertNotNull(teacher);
         assertEquals(checkUname, uname);
 
-        // faliurer test case
+//         faliurer test caseWWW
         String uname1 = "wrong";
         String pass1 = "wrong";
         Teacher teacher1;
